@@ -1,24 +1,26 @@
 {
-    "name": "hexlet",
-    "version": "1.0.0",
-    "description": "Мой первый проект на Хекслете",
-    "main": "Index.js",
-    "dependencies": {
-        "lodash": "^4.17.23"
-    },
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/Boobleck/hexlet-js.git"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/Boobleck/hexlet-js/issues"
-    },
-    "homepage": "https://github.com/Boobleck/hexlet-js#readme",
-    "type": "module"
+  "name": "hexlet",
+  "version": "1.0.0",
+  "description": "Мой первый проект на Хекслете",
+  "main": "Index.js",
+  "type": "module",
+  "scripts": {
+    "format": "prettier . --write",
+    "format:check": "prettier . --check",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Boobleck/hexlet-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Boobleck/hexlet-js/issues"
+  },
+  "homepage": "https://github.com/Boobleck/hexlet-js#readme",
+  "dependencies": {
+    "lodash": "^4.17.23"
+  }
 }
