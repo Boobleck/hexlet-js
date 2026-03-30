@@ -2,12 +2,15 @@
   "name": "hexlet",
   "version": "1.0.0",
   "description": "Мой первый проект на Хекслете",
-  "main": "Index.js",
+  "main": "./src/index.js",
   "type": "module",
   "scripts": {
     "format": "prettier . --write",
     "format:check": "prettier . --check",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "repository": {
     "type": "git",
